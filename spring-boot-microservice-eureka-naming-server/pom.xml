@@ -8,10 +8,10 @@
 		<version>2.1.4.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.samarth.springboot.microservice.currencyconversion</groupId>
-	<artifactId>spring-boot-microservice-currency-conversion-service</artifactId>
+	<groupId>com.samarth.springboot.microservice.eureka.naming.server</groupId>
+	<artifactId>spring-boot-microservice-eureka-naming-server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>spring-boot-microservice-currency-conversion-service</name>
+	<name>spring-boot-microservice-eureka-naming-server</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -21,23 +21,15 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-web</artifactId>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
 		</dependency>
 		
-		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
-		</dependency>
 		
 		<dependency>
-	      <groupId>org.springframework.cloud</groupId>
-	      <artifactId>spring-cloud-starter-netflix-ribbon</artifactId>
-	    </dependency>
-	    
-		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-openfeign</artifactId>
+			<groupId>org.glassfish.jaxb</groupId>
+			<artifactId>jaxb-runtime</artifactId>
+			<version>2.3.0</version>
 		</dependency>
 
 		<dependency>
