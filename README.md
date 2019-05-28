@@ -7,7 +7,7 @@
  - Ribbon client side Load Balancing
  - H2
  
- ### Requirement
+ ### Description
   - This repository contains 2 microservices named 1) Forex-Service and 2) Currency-Conversion-Service. These two services talk to each other using Eureka naming server
  
 ### Compile your java code by executing following command:
