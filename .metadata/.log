@@ -3679,3 +3679,8 @@ Caused by: java.lang.NoSuchMethodException: org.springframework.boot.autoconfigu
 	at java.base/java.lang.Class.getDeclaredConstructor(Class.java:2554)
 	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:80)
 	... 33 more
+
+!ENTRY org.eclipse.core.resources 2 2 2019-05-28 16:55:19.504
+!MESSAGE Save operation warnings.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2019-05-28 16:55:19.504
+!MESSAGE The project description file (.project) for 'Servers' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.

@@ -16,3 +16,6 @@
 ### Run spring boot application:
  - mvn spring-boot:run OR java -jar spring-boot-microservice-forex-service-0.0.1-SNAPSHOT.jar
 
+### REST endpoint collection:
+ - https://www.getpostman.com/collections/e6817db4499fae2d0aa2
+
