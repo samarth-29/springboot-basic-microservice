@@ -1,0 +1,6 @@
+package com.samarth.springboot.microservice.forex;
+
+public interface ExchangeValueRepository extends 
+JpaRepository<ExchangeValue, Long>{
+ExchangeValue findByFromAndTo(String from, String to);
+}
